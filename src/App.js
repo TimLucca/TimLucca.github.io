@@ -4,6 +4,9 @@ import Header from './components/layout/Header'
 import './App.css';
 
 class App extends React.Component {
+  componentDidMount(){
+    document.title="Tim Lucca"
+  }
   render(){
     return (
       <div className="Portfolio">

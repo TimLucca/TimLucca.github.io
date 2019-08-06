@@ -12,5 +12,11 @@ const headerStyle = {
   background: '#333',
   color: '#fff',
   textAlign: 'center',
-  padding: '10px'
+  padding: '2rem'
+}
+
+const linkStyle = {
+  color: '#fff',
+  textDecoration: 'none',
+  padding: '1rem'
 }
