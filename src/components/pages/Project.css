@@ -1,0 +1,34 @@
+.ProjectLink {
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  width: 15%;
+  margin-right: .5%;
+  text-align: center;
+  outline: none;
+  line-height: 3;
+  background: white;
+}
+
+
+
+.ProjectLink:visited {
+  background: white;
+}
+
+.ProjectLink:hover, .ProjectLink:focus {
+  background: #61dafb;
+}
+
+li {
+  display: inline;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
